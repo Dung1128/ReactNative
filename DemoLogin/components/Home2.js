@@ -41,7 +41,7 @@ export default class Home2 extends Component{
             </Text>
         </View>
         <View style={Style.login}>
-          <TouchableOpacity style={Style.btnLogin} onFocus ={true} onPress={this.redirect.bind(this,'logout')}>
+          <TouchableOpacity style={Style.btnLogin}  onPress={this.redirect.bind(this,'logout')}>
             <Text style={Style.txtButton}> logout
             </Text>
           </TouchableOpacity>
