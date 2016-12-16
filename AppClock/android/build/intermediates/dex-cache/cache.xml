@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\practices\MaterialReactNative-master\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp\0.6.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1d5fddbfc516e39dd74d776e5cca8b761721990b">
+        <dex dex="E:\practices\MaterialReactNative-master\android\app\build\intermediates\pre-dexed\debug\classes-3ed9db1d3c2cf372e480e3c678ed4ac5c3291cbc.jar" />
+    </item>
+    <item
+        jar="C:\Users\trand\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="E:\practices\MaterialReactNative-master\android\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-895c2b7546096e31298c6925cee77895a65dc755.jar" />
+    </item>
+    <item
+        jar="E:\practices\MaterialReactNative-master\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\0.6.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="eb9817e26186e1a267cdd14211742ecc793de32e">
+        <dex dex="E:\practices\MaterialReactNative-master\android\app\build\intermediates\pre-dexed\debug\classes-3022cb80875d78f7c009808672b58f25d7428bd8.jar" />
+    </item>
+    <item
+        jar="C:\Users\trand\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.2.3\1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14\jackson-core-2.2.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14">
+        <dex dex="E:\practices\MaterialReactNative-master\android\app\build\intermediates\pre-dexed\debug\jackson-core-2.2.3-80d87478a287d18ce44ebe8a705814e5f8d028dd.jar" />
+    </item>
+    <item
+        jar="E:\practices\MaterialReactNative-master\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="E:\practices\MaterialReactNative-master\android\app\build\intermediates\pre-dexed\debug\classes-cde75e63c9ae87071a4d950630071cb51c844536.jar" />
+    </item>
+    <item
+        jar="C:\Users\trand\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="E:\practices\MaterialReactNative-master\android\app\build\intermediates\pre-dexed\debug\library-2.4.0-5754ae4bb117b86d4a92858279ecf9aae4dccef6.jar" />
+    </item>
+    <item
+        jar="C:\Users\trand\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp-ws\2.4.0\69206d28966656052a982ceded583abdeb41cf63\okhttp-ws-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="69206d28966656052a982ceded583abdeb41cf63">
+        <dex dex="E:\practices\MaterialReactNative-master\android\app\build\intermediates\pre-dexed\debug\okhttp-ws-2.4.0-6cb329cea5170c3806842646dd26d05efdb74991.jar" />
+    </item>
+    <item
+        jar="E:\practices\MaterialReactNative-master\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="E:\practices\MaterialReactNative-master\android\app\build\intermediates\pre-dexed\debug\classes-7d782cf429575c53ebf3000764032d34c76ba6f1.jar" />
+    </item>
+    <item
+        jar="C:\Users\trand\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.5.0\bb7d4d96e780e8ef4f275c7d8dd3ef2883ddf99a\okio-1.5.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="bb7d4d96e780e8ef4f275c7d8dd3ef2883ddf99a">
+        <dex dex="E:\practices\MaterialReactNative-master\android\app\build\intermediates\pre-dexed\debug\okio-1.5.0-48d28362da4174fa9c94d3719b83e12d7a939022.jar" />
+    </item>
+    <item
+        jar="E:\practices\MaterialReactNative-master\android\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="E:\practices\MaterialReactNative-master\android\app\build\intermediates\pre-dexed\debug\classes-a76df613628f83f33af89714941e179f09b31838.jar" />
+    </item>
+    <item
+        jar="E:\practices\MaterialReactNative-master\android\app\build\intermediates\exploded-aar\MaterialReactNative\react-native-vector-icons\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3d4c52c8eb764451d114a261455a70f6c8bbc4ef">
+        <dex dex="E:\practices\MaterialReactNative-master\android\app\build\intermediates\pre-dexed\debug\classes-4421d41e430e2102dcacd61f62d337567aebdef2.jar" />
+    </item>
+    <item
+        jar="C:\Users\trand\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="E:\practices\MaterialReactNative-master\android\app\build\intermediates\pre-dexed\debug\jsr305-3.0.0-5bee27f9289553443bb0cf5987452df15d2a8079.jar" />
+    </item>
+    <item
+        jar="E:\practices\MaterialReactNative-master\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.14.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="524baea148a06c6cabf75bd83932f00bf734907f">
+        <dex dex="E:\practices\MaterialReactNative-master\android\app\build\intermediates\pre-dexed\debug\classes-b4e0d562431109af6fb8b3c20d1c5aa1940220ef.jar" />
+    </item>
+    <item
+        jar="E:\practices\MaterialReactNative-master\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\0.6.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="af0fe468c884e2d153cf564326b23b54ff0040ce">
+        <dex dex="E:\practices\MaterialReactNative-master\android\app\build\intermediates\pre-dexed\debug\classes-c6e9611787d39e89c66e48576bd7e78b8bafb660.jar" />
+    </item>
+    <item
+        jar="E:\practices\MaterialReactNative-master\android\app\build\intermediates\exploded-aar\MaterialReactNative\RNSound\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6848a344d2be8b1da5235249ed888734963a7f13">
+        <dex dex="E:\practices\MaterialReactNative-master\android\app\build\intermediates\pre-dexed\debug\classes-ad34bc92f1b6c98f3d89ec4f857fc648c89f8b6f.jar" />
+    </item>
+    <item
+        jar="E:\practices\MaterialReactNative-master\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\0.6.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c10091a128e47ed4ef804bd753c0f45745699756">
+        <dex dex="E:\practices\MaterialReactNative-master\android\app\build\intermediates\pre-dexed\debug\classes-64c5d22d8d4b3b5fe04c543a3e670bddb2f936b8.jar" />
+    </item>
+    <item
+        jar="C:\Users\trand\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.1.4\129874135e6081269ace2312092031558865de12\bolts-android-1.1.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="E:\practices\MaterialReactNative-master\android\app\build\intermediates\pre-dexed\debug\bolts-android-1.1.4-1ead7e0cb87682ebbc5a2f13013e3ebcfab702da.jar" />
+    </item>
+    <item
+        jar="E:\practices\MaterialReactNative-master\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.14.0\jars\libs\infer-annotations-1.5.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0b5e946b76cdb1f00b18f2981e7d997141a66c9f">
+        <dex dex="E:\practices\MaterialReactNative-master\android\app\build\intermediates\pre-dexed\debug\infer-annotations-1.5-d73301189ecc429f554f136cd50593c8274f4b42.jar" />
+    </item>
+    <item
+        jar="E:\practices\MaterialReactNative-master\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\0.6.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="dd4c42401d36342901ac4280fb92a831f8007f3d">
+        <dex dex="E:\practices\MaterialReactNative-master\android\app\build\intermediates\pre-dexed\debug\classes-311bd446353ef468ff325246994a840264801a14.jar" />
+    </item>
+    <item
+        jar="E:\practices\MaterialReactNative-master\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="E:\practices\MaterialReactNative-master\android\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-b9cc3ad610dbb13645094c0c150bcdee0f856bf1.jar" />
+    </item>
+    <item
+        jar="C:\Users\trand\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.4.0\40340c0748190fe897baf7bffbc1b282734294e5\okhttp-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="40340c0748190fe897baf7bffbc1b282734294e5">
+        <dex dex="E:\practices\MaterialReactNative-master\android\app\build\intermediates\pre-dexed\debug\okhttp-2.4.0-8281b37dcb313ab2350c9582a75b95bad256fa9e.jar" />
+    </item>
+
+</items>
