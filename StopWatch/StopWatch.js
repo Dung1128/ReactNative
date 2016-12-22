@@ -1,9 +1,3 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- * @flow
- */
-
 import React, { Component } from 'react';
 import {
   AppRegistry,
@@ -44,59 +38,56 @@ export default class StopWatch extends Component {
      }
 
      _playBeep(){
-           beep = new Sound ('rengreng.mp3', Sound.MAIN_BUNDLE, (e) => {
+           beep = new Sound ('tittit.mp3', Sound.MAIN_BUNDLE, (e) => {
            if (e) {
              console.log('error', e);
            } else {
              console.log('duration', beep.getDuration());
                beep.play();
-
+               this.timeout = setTimeout(()=>{beep.stop()},100);
              }
            }
          );
        }
+
      _addMinutes(){
       //  this._playBeep();
-      //  if(this.state.flagBeep){
-      //      this.setTimeout(function () {console.log('hello')
-      //    }, 100);
-      //    beep.stop();
-      //    this.setState({flagBeep:false})
-      //  }
-       this.setState({flag:true})
-       if(this.state.ringring){
-         alarm.stop();
-         this.setState({ringring:false})
-         return
-       }
-       if(!this.state.running){
-         if(this.state.m >= 99){
-          this.setState({m:1})
+         this.setState({flag:true})
+         if(this.state.ringring){
+           alarm.stop();
+           this.setState({ringring:false,flag: false})
+           return
          }
-         else{
-           this.setState({m:++this.state.m})
+         if(!this.state.running){
+           if(this.state.m >= 99){
+            this.setState({m:1})
+           }
+           else{
+             this.setState({m:++this.state.m})
+           }
          }
-       }
-       this.setState({
-       lastPress: new Date().getTime()
-     })
+         this.setState({
+         lastPress: new Date().getTime()
+       })
 
      }
        _addSeconds(){
+        //  this._playBeep();
          var delta = new Date().getTime() - this.state.lastPress;
-         if(delta < 1000) {
-          if(this.state.running){
+         if(delta < 2000) {
+          // if(this.state.running){
             clearInterval(this.interval);
-            this.setState({running:false})
-            return
-          }
-            this.setState({m:0,s:0})
+            // this.setState({running:false})
+            // return
+            this.setState({m:0,s:0, ringring:false, flag:false,running:false})
+          // }
+            // this.setState({m:0,s:0})
       }
       else{
         this.setState({flag:true})
         if(this.state.ringring){
           alarm.stop();
-          this.setState({ringring:false})
+          this.setState({ringring:false,flag: false})
           return
         }
         if(!this.state.running)
@@ -126,29 +117,30 @@ export default class StopWatch extends Component {
        }
 
        _start(){
-        //  this._playBeep();
-         if(this.state.flag){
-          if(this.state.running){
-            clearInterval(this.interval);
-            this.setState({running:false})
-            return
-          }
-          else{
-            if(this.state.ringring){
-              alarm.stop();
-              this.setState({ringring:false})
+          // this._playBeep();
+           if(this.state.flag){
+            if(this.state.running){
+              clearInterval(this.interval);
+              this.setState({running:false})
               return
             }
-          }
-              this.interval = setInterval(()=>{this._run()},1000);
-            }
-            else {
+            else{
               if(this.state.ringring){
                 alarm.stop();
                 this.setState({ringring:false})
                 return
               }
             }
+                this.interval = setInterval(()=>{this._run()},1000);
+              }
+              else {
+                if(this.state.ringring){
+                  alarm.stop();
+                  this.setState({ringring:false})
+                  return
+                }
+              }
+
        }
 
     render(){
@@ -216,7 +208,7 @@ export default class StopWatch extends Component {
                       <TouchableOpacity style={{
                                 alignItems:'center',
                                 justifyContent:'center'}} onPress={()=>this._start()}>
-                                <Image style={{width: 80,height: 80, alignItems:'center', justifyContent:'center'}}
+                                <Image style={{width: 90,height: 90, alignItems:'center', justifyContent:'center'}}
                                   source={require('./images/button4.png')}>
                                       <Text style={{color:'white'}}>Start
                                       </Text>
