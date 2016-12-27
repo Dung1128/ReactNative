@@ -10,6 +10,7 @@ import {
 var Sound = require('react-native-sound');
 const timer = require('react-native-timer');
 import TimerMixin from 'react-timer-mixin';
+import Style from './src/Style.js';
 export default class StopWatch extends Component {
     constructor(props) {
         super(props);
@@ -144,90 +145,90 @@ export default class StopWatch extends Component {
        }
 
     render(){
-        return(
-          <View style={{flex: 1, padding:5, flexDirection:'column'}}>
-              <View style={{alignItems:'center', justifyContent:'center'}}>
-                <Text style={{fontSize:30, fontWeight:'bold'}}>
-                  TANITA
-                </Text>
-              </View>
-              <View style ={{flex: 0.5,flexDirection:'row',alignItems:'center', justifyContent:'center'}}>
-                  <View >
-                    <Text style={{fontSize:70,flex:1, fontWeight:'bold', color:'#212121'}}>
-                        {this.state.m<10?'0'+this.state.m:this.state.m}
-                    </Text>
-                  </View>
-                  <View>
-                          <Text style={{fontSize:50,flex:1, fontWeight:'bold', color:'#212121'}}>
-                            {this.state.s<10?'0'+this.state.s:this.state.s}
+      return(
+        <View style={Style.container}>
+            <View style={Style.title}>
+              <Text style={Style.txtTitle}>
+                TANITA
+              </Text>
+            </View>
+            <View style ={Style.body}>
+                <View >
+                  <Text style={Style.txtMinutes}>
+                      {this.state.m<10?'0'+this.state.m:this.state.m}
+                  </Text>
+                </View>
+                <View>
+                        <Text style={Style.txtSeconds}>
+                          {this.state.s<10?'0'+this.state.s:this.state.s}
+                        </Text>
+                        <View style={{flexDirection:'row'}}>
+
+                          <Text style={{fontWeight:'bold'}}>
+                            M
                           </Text>
-                          <View style={{flexDirection:'row'}}>
+                          <Text style={{fontWeight:'bold', paddingLeft:30}}>
+                            S
+                          </Text>
+                        </View>
 
-                            <Text style={{fontWeight:'bold'}}>
-                              M
-                            </Text>
-                            <Text style={{fontWeight:'bold', paddingLeft:30}}>
-                              S
-                            </Text>
-                          </View>
+                </View>
+            </View>
 
-                  </View>
-              </View>
+            <View style={Style.buttonView}>
+              <View style={{flex:1,flexDirection:'row', justifyContent:'space-around'}}>
 
-              <View style={{flex:2, paddingTop: 50}}>
-                <View style={{flex:1,flexDirection:'row', justifyContent:'space-around'}}>
+                <View style={{flex:2, flexDirection:'row'}}>
+                  <View style={{ flex:1}}>
+                    <TouchableOpacity style={{
+                              alignItems:'center',
+                              justifyContent:'center'}} onPress={()=>this._addMinutes()}>
+                        <Image style={Style.btn}
+                          source={require('./images/button4.png')}>
+                              <Text style={Style.txtBtn}>Minutes
+                              </Text>
+                          </Image>
+                    </TouchableOpacity>
 
-                  <View style={{flex:2, flexDirection:'row'}}>
-                    <View style={{ flex:1}}>
+                    </View>
+
+                    <View style={{  flex:1}}>
                       <TouchableOpacity style={{
                                 alignItems:'center',
-                                justifyContent:'center'}} onPress={()=>this._addMinutes()}>
-                          <Image style={{width: 80,height: 80, alignItems:'center', justifyContent:'center'}}
+                                justifyContent:'center'}} onPress={()=>this._addSeconds()}>
+                          <Image style={Style.btn}
                             source={require('./images/button4.png')}>
-                                <Text style={{color:'white'}}>Minutes
+                                <Text style={Style.txtBtn}>Seconds
                                 </Text>
                             </Image>
                       </TouchableOpacity>
+                    </View>
+                </View>
 
-                      </View>
-
-                      <View style={{  flex:1}}>
-                        <TouchableOpacity style={{
-                                  alignItems:'center',
-                                  justifyContent:'center'}} onPress={()=>this._addSeconds()}>
-                            <Image style={{width: 80,height: 80, alignItems:'center', justifyContent:'center'}}
-                              source={require('./images/button4.png')}>
-                                  <Text style={{color:'white'}}>Seconds
-                                  </Text>
-                              </Image>
-                        </TouchableOpacity>
-                      </View>
+                  <View style={{flex:1}}>
+                    <TouchableOpacity style={{
+                              alignItems:'center',
+                              justifyContent:'center'}} onPress={()=>this._start()}>
+                              <Image style={Style.btn}
+                                source={require('./images/button4.png')}>
+                                    <Text style={Style.txtBtn}>Start
+                                    </Text>
+                                    <Text style={Style.txtBtn}>Stop
+                                    </Text>
+                                </Image>
+                    </TouchableOpacity>
                   </View>
 
-                    <View style={{flex:1}}>
-                      <TouchableOpacity style={{
-                                alignItems:'center',
-                                justifyContent:'center'}} onPress={()=>this._start()}>
-                                <Image style={{width: 90,height: 90, alignItems:'center', justifyContent:'center'}}
-                                  source={require('./images/button4.png')}>
-                                      <Text style={{color:'white'}}>Start
-                                      </Text>
-                                      <Text style={{color:'white'}}>Stop
-                                      </Text>
-                                  </Image>
-                      </TouchableOpacity>
-                    </View>
-
-                </View>
               </View>
+            </View>
 
-              <View style={{flex:1}}>
-              </View>
+            <View style={{flex:1}}>
+            </View>
 
 
 
-          </View>
-        );
+        </View>
+      );
       }
 }
 
